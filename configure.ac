@@ -12,8 +12,8 @@ CFLAGS+=" -std=c11"
 
 # Checks for libraries.
 PKG_CHECK_MODULES(libimobiledevice, libimobiledevice-1.0 >= 1.2.1)
-PKG_CHECK_MODULES(libirecovery, libirecovery >= 0.2.0)
-PKG_CHECK_MODULES(libusbmuxd, libusbmuxd >= 0.29.1)
+PKG_CHECK_MODULES(libirecovery, libirecovery-1.0 >= 0.2.0)
+PKG_CHECK_MODULES(libusbmuxd, libusbmuxd-2.0 >= 0.29.1)
 PKG_CHECK_MODULES(openssl, openssl >= 0.9.8)
 
 # Checks for header files.
